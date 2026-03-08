@@ -47,12 +47,12 @@
             // 
             lblOutput.AutoSize = true;
             lblOutput.BorderStyle = BorderStyle.FixedSingle;
-            lblOutput.Font = new Font("Segoe UI", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblOutput.Location = new Point(386, 55);
+            lblOutput.Font = new Font("Source Han Sans CN Bold", 30F, FontStyle.Bold, GraphicsUnit.Point, 128);
+            lblOutput.Location = new Point(365, 43);
             lblOutput.Name = "lblOutput";
-            lblOutput.Size = new Size(51, 62);
+            lblOutput.Size = new Size(90, 74);
             lblOutput.TabIndex = 0;
-            lblOutput.Text = "0";
+            lblOutput.Text = "00";
             lblOutput.TextAlign = ContentAlignment.MiddleRight;
             lblOutput.Click += label1_Click;
             // 
